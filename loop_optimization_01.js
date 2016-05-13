@@ -33,3 +33,10 @@ var list = treasureChest.neckLaces;
 for(var i = 0, x = treasureChest.neckLaces.length; i < x; i++){
   console.log("v4 - " + list[i]);
 }
+
+
+// 5
+var list = treasureChest.neckLaces;
+for(p in list){
+  console.log("v5 - " + list[p]);
+}
