@@ -11,7 +11,7 @@ var paginaElementos = [ "<!DOCTYPE html>",
 
 var pagina = "";
 
-console.time(paginaElementos.length);
+console.time("testando performance");
 
 for(var i = 0, x = paginaElementos.length; i < x; i++) {
   pagina += paginaElementos[i];
@@ -20,4 +20,4 @@ for(var i = 0, x = paginaElementos.length; i < x; i++) {
 // pagina = paginaElementos.join("\n");
 
 
-console.timeEnd(paginaElementos.length);
+console.timeEnd("testando performance");
