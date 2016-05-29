@@ -1,4 +1,4 @@
-
+var list = undefined;
 try {
   var newHallOfFame = ["Dark Frostring", "Render Tallborn"];
   if(list === undefined) {
@@ -21,4 +21,6 @@ try {
       "Alas, \"list\" exists, but is no longer as Array.\n" +
       "Check for a disastrous overwrite!");    
   }
+} finally {
+  console.log(list);
 }
